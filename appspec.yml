@@ -8,4 +8,4 @@ hooks:
   ApplicationStart:
     - location: scripts/start_container.sh
       timeout: 10
-      runas: ec2-user
+      runas: root
